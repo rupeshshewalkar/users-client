@@ -1,10 +1,11 @@
 package usersclient
 
 type User struct {
-	ID     string `json:"_id,omitempty"`
-	Name   string `json:"name,omitempty"`
-	Alias  string `json:"alias,omitempty"`
-	Weapon string `json:"weapon,omitempty"`
+	ID       string `json:"_id,omitempty"`
+	Name     string `json:"name,omitempty"`
+	Alias    string `json:"alias,omitempty"`
+	Email    string `json:"email,omitempty"`
+	Username string `json:"username,omitempty"`
 }
 
 type UpdateResult struct {
